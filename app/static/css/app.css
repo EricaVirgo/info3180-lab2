@@ -1,3 +1,38 @@
 body {
     padding-top: 5rem;
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+
+img{
+    border-radius: 60px;
+}
+
+#container{
+align-items: center;
+}
+
+#head{
+    background-color: #13e7b7;
+    padding-top: 3rem;
+    width: 500px;
+}
+
+#body{
+    width: 500px;
+
+}
+
+#num{
+    font-weight: bold;
+    margin: 0px;
+}
+
+button{
+    font: 25px bold;
+    color: green;
+    border-radius: 10px;
 }

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+
+{% block main %}
+<div id="container">
+<div id="head"> 
+    <img src="{{ url_for('static', filename= 'image.jpg') }}">
+    <h1> Erica Virgo  </h1>
+     @eVirgo <br/>
+     UWI Mona, Kingston, Jamaica <br/>
+     Joined {{ date }}.
+</div>
+
+<div id="body">
+    <br/>
+    <p> I am a talented young woman with a passion for coding and design. <br/>
+    I am always looking for employment and interesting projects to work on.  </p>
+    
+    <div> 
+        <p id="num"> 8 &nbsp; &nbsp; &nbsp; 434  &nbsp; &nbsp; &nbsp; 289  </p> 
+        Posts &nbsp; Followers &nbsp; Following
+    </div>
+    
+    
+    <br/> 
+    <button type="button"> Follow</button>
+
+     
+ </div>
+ </div>
+ 
+{% endblock %}
